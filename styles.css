@@ -19,7 +19,6 @@
     justify-content: center;
     background-color: white;
     z-index: 100;
-    display: none;
 }
 
 #text{
@@ -64,7 +63,7 @@ header .logo{
 }
 
 header .logo img{
-
+    z-index: 21;
 }
 
 header nav ul{

@@ -2,10 +2,10 @@ let tl = gsap.timeline({defaults: {duration: 1.5}})
 
 tl
 .fromTo('#text', {scale: 3, y: '-200%', opacity: 0}, {scale: .6, y: "20%", opacity: 1})
-.fromTo('#mark', {y: '200%'}, {y: '-10%'}, "-=1.4")
+.fromTo('#mark', {y: '200%', opacity: 0}, {y: '-10%', opacity: 1}, "-=1.4")
 .to('#text', {scale: 1, y: 0, ease: 'power2.out'})
 .to('#mark', {y:0 , ease: 'power2.out'}, "-=1.4")
-.to('#text', {scale: .8, y: "-20%", duration: 1.2})
+.to('#text', {scale: .8, y: "-20%", duration: 1.2}, '-=0.5')
 .to('#mark', {y: '10%', duration: 1.2}, '-=1.2')
 .to('#text', {scale: 1, y: 0})
 .to('#mark', {y: 0}, '-=1.4')

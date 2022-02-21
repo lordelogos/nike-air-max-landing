@@ -34,6 +34,7 @@ body{
     height: auto;
     position: absolute;
     top: 34%;
+    opacity: 0;
 }
 
 #mark{
@@ -42,6 +43,7 @@ body{
     height: auto;
     position: absolute;
     top: 36%;
+    opacity: 0;
 }
 
 header{

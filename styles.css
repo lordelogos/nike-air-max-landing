@@ -7,9 +7,16 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.preloader{
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
     width: 100vw;
     height: 100vh;
+}
+
+.preloader{
+    height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -42,6 +49,7 @@ header{
     height: 100vh;
     background: url(./assets/bg.png) rgba(255, 255, 255, .8) center center no-repeat;
     background-size: auto 90vh;
+    position: relative;
 }
 
 header nav{
